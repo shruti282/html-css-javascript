@@ -1,122 +1,19 @@
 .thumbnail {
-    width: 250px;
+    width: 280px;
+    display: block;
 }
 
 .search-bar {
-    font-size: 20px;
-    margin-left: 12px;
-    vertical-align: text-bottom;
+   display: block;
 }
 
-.practice-img {
-    margin-top: 20px;
-    width: 200px;
-    border-radius: 10px;
-}
+.video-title {
+    width: 280px;
+  }
 
-.practice-img1 {
-    margin-top: 20px;
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.practice-img2 {
-    margin-top: 50px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.rounded-corners{
-    border-radius: 4px;
-    border: solid;
-    border-color: rgb(173, 170, 170);
-    border-width: 1px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-}
-
-.shadow-no-border{
-    border-radius: 20px;
-    width: 500px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    padding-right: 15px;
-    border-radius: 30px;
-    border: none;
-    box-shadow: 1px 1px rgb(0, 0, 0, 0.25);    
-}
-
-.email{
-    font-family: Arial;
-    font-size: 12px;
-    color: gray;
-    margin-bottom: 0px;
-}
-
-.linkedin-signup{
-    margin-top: 0px;
-    width: 250px;
-    height: 20px;
-    border-width: 1.4px;
-    border-style: solid;
-    border-radius: 3px;
-    border-color: rgb(100, 100, 100);
-    margin-bottom: 20px;
-}
-
-.disclaimer{
-    font-family: Arial;
-    font-size: 12px;
-    color: rgb(100, 100, 100);
-    margin-bottom: 0px;
-}
-
-.agree-join{
-    width: 260px;
-    border-radius: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: none;
-    color: white;
-    background-color: rgb(10, 102, 194);
-}
-
-.practice-img3{
-    margin-top: 50px;
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-    object-fit: cover;
-    object-position: center;
-    vertical-align: middle;
-}
-
-.text-box{
-    margin-top: 50px;
-    margin-left: 8px;
-    vertical-align: middle;
-    border: none;
-    font-size: 18px;
-    font-family: Arial;
-    padding-right: 70px;
-}
-
-.tweet{
-    margin-top: 50px;
-    vertical-align: middle;
-    border-radius: 20px;
-    border: none;
-    background-color: rgb(29, 155, 240);
-    color: white;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
+  .video-preview{
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+    margin-right: 15px;
+  }
